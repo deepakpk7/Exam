@@ -1,5 +1,6 @@
-a=65
 for i in range(1,5):
+    a=64
     for j in range(i):
-        print(chr(j+a),end=" ")
+        print(chr(a+i),end=" ")
+        a-=1
     print()
